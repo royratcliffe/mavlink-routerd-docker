@@ -1,2 +1,2 @@
-mavlinkrouter-latest:
-	docker build --pull --rm -f "Dockerfile" -t royratcliffe/mavlinkrouter:latest "."
+mavlinkrouter-alpine:
+	docker build --pull --rm -f "Dockerfile" -t royratcliffe/mavlinkrouter:alpine "."
