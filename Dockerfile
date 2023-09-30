@@ -1,5 +1,6 @@
 FROM alpine:3 AS builder
-RUN apk update && apk add --no-cache gcc \
+RUN apk update && apk add --no-cache \
+        gcc \
         g++ \
         git \
         pkgconf \
