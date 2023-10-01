@@ -3,7 +3,7 @@
 Launch using:
 
 ```bash
-docker run -it --rm royratcliffe/mavlinkrouter -h
+docker run -it --rm royratcliffe/mavlink-routerd -h
 ```
 ```
 mavlink-routerd [OPTIONS...] [<uart>|<udp_address>]
