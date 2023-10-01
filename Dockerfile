@@ -16,4 +16,4 @@ RUN git clone --recursive https://github.com/mavlink-router/mavlink-router \
 FROM alpine:3
 RUN apk update && apk add --no-cache libstdc++
 COPY --from=builder /mavlink-router/build/src/mavlink-routerd /usr/local/bin
-CMD [ "mavlink-routerd" ]
+ENTRYPOINT [ "mavlink-routerd" ]
